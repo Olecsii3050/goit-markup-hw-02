@@ -87,7 +87,7 @@ a {
 .image-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.0;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -149,13 +149,13 @@ a {
         color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-item {}
 
-.team-img {
-    background-color: #FFFFFF
-}
+.team-img {}
 
 .team-subtitle {
     font-weight: 500;
@@ -163,7 +163,7 @@ a {
         line-height: 1.2;
         color: #2e2f42;
         letter-spacing: 0.02em;
-        text-transform: capitalize
+        
 }
 
 .team-text {
@@ -182,6 +182,7 @@ a {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -194,7 +195,6 @@ a {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -209,7 +209,7 @@ a {
 
 /* #region footer */
 .page-footer {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     background: #2e2f42;
 }
 
