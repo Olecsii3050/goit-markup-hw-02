@@ -138,6 +138,7 @@ a {
 /* #region team */
 .team {
     background: #f4f4fd;
+    
 }
 
 .team-subject {
@@ -149,11 +150,11 @@ a {
         color: #2e2f42;
 }
 
-.team-list {
+.team-list {}
+
+.team-item {
     background-color: #FFFFFF
 }
-
-.team-item {}
 
 .team-img {}
 
